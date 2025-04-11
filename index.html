@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chess Game App</title>
+  
+  <!-- Link to our custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Include chess.js and chessboard.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/1.0.0/chess.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard-1.0.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard-1.0.0.min.css">
+</head>
+<body>
+  <h1>Chess Game App</h1>
+  
+  <!-- Container for the chessboard -->
+  <div id="board" style="width: 400px; margin: auto;"></div>
+  
+  <!-- Status about the game (display move validation, current turn, etc.) -->
+  <div id="status"></div>
+  
+  <!-- Button to reset the game -->
+  <button id="resetBtn">Reset Game</button>
+  
+  <!-- Include our main JavaScript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
