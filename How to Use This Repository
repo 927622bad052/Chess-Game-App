@@ -1,0 +1,22 @@
+Clone the Repository:
+
+bash
+git clone https://github.com/your-username/Chess-Game-App.git
+cd Chess-Game-App
+Open the Application:
+
+Double-click on index.html to open it in your default web browser.
+
+Or, serve the folder with a static server. For instance, using Python:
+
+bash
+python -m http.server
+Then visit http://localhost:8000.
+
+Play Chess!
+
+Move pieces by dragging them.
+
+The app automatically validates moves.
+
+Click the Reset Game button to start a new game.
